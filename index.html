@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spy Cripter</title>
+    <!-- /Meta tags  -->
+
+    <!--Link para pegar o estilo CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--/Link para pegar o estilo CSS -->
+
+    <!--Link para pegar o estilo de fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <!--/Link para pegar o estilo de fonte -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/icons8-particular-2-50.png" type="image/x-icon">
+    <!-- /Favicon -->
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <img class="logo-nav" width="50px" src="assets/img/spy.png" alt="Imagem de um espião">
+        </div>
+
+    </header>
+
+    <main>
+        <section class="inicial">
+            <section class="encriptar">
+                <h2>Spy Cripter</h2>
+                <textarea name="" id="input" cols="20" rows="5"
+                    placeholder=" Digite o texto que gostaria de encriptar:"></textarea>
+                <div class="btn-encriptar">
+                    <input class="button" id="encriptar-btn" type="button" value="Encriptar">
+                    <input class="button" id="desencriptar-btn" type="button" value="Desencriptar">
+                </div>
+                <div class="desencriptar-empty" id="desencriptar-empty">
+                </div> 
+                <div class="desencriptar-result" id="desencriptar-result">
+                    <textarea name="" id="output" cols="20" rows="5"></textarea>
+                    <div class="btn-desencriptar">
+                        <input class="button" id="copy" type="button" value="Copiar">
+                        <span id="message"></span>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="desencriptar">
+                <div>
+                    <img class="lock" src="assets/img/lock.png" alt="Imagem de um cadeado">
+                </div>
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://github.com/fh-brocco">
+            <img class="logo-rodape " src="assets/img/Github.png" alt="Logo do Github">
+        </a>
+        <a href="https://www.linkedin.com/in/fernando-brocco/">
+            <img class="logo-rodape " src="assets/img/Linkedin.png" alt="Logo do Linkedin">
+        </a>
+        <p class="copyright">
+            &copy Fernando Brocco - Todos os direitos reservados - 2023
+        </p>
+    </footer>
+
+    <!--Script Js-->
+    <script src="assets/js/script.js"></script>
+    <!--/Script Js-->
+
+</body>
+
+</html>
